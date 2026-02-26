@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>food place</title>
+
+    <style>
+        /*. element selector*/
+        body{
+          front-family: arial;
+          margin: 0;
+          background-colour:yellow;
+        }
+        
+        /*.2 id selector */
+        #main-header{
+            background-color: darkorange;
+            colour:black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* 3. class selector*/
+        .menu-item{
+            background-color: rgb(179, 170, 170);
+            margin: 15px;
+            padding: 15px;
+            border-radius:10px;
+            box-shadow: 0 0 8px;
+        }
+
+        /* group selector*/
+        h2,h3{
+            colour:darkred
+        }
+
+        /*5. desendant selector*/
+        nav> a{
+            color: rgb(136, 131, 131);}
+            .menu-item p{
+                fornt-size: 14px;
+            }
+            /*6. child selector */
+            nav >a{
+                color: rgb(201, 20, 29);
+                text-decoration: none;
+                margin: 10px;
+                front-weight:bold;
+            }
+
+            /*. attribute selector*/
+            input[type="text"]{
+                padding: 8px;
+                width: 200px;
+                margin: 5px 0;
+            }
+
+            /*8. pseudo-class selector*/
+            nav>a:hover{
+                colour:yellow;
+            }
+            button:hover{
+                background-color: white;
+            }
+
+            nav{
+                background-color: #333;
+                padding: 10px;
+                text-align: center;
+            }
+
+            button{
+                background-color: rgb(231, 51, 51);
+                color: white;
+                border: none;
+                padding: 8px 15px;
+                border-radius: 5px;
+                cursor:pointer;
+            }
+
+            footer{
+                background-color: darkred;
+                color: white;
+                text-align: 10px;
+                padding:10px;
+            }
+          </style>
+        </head>
+
+        <body>
+        <header id="main-head"
+         <h1>saloni jwlers</h1>
+         <p>best qualit gold in vijapur</p>
+        </header>
+
+        <nav>
+            <a href="#">home</a>
+            <a href="menu"></a>
+            <a href="contact"></a>
+        </nav>
+    </section>
+    <section>
+        <h2>our menu</h2>
+
+        <div class="menu-item">
+            <h3>payal chain </h3>
+            <p>spicy grilled chicken with mint chutney.</p>
+            <p><strong>prise:3000</strong></p>
+            <button>order now</button>
+        </div>
+
+        <div class="menu-item">
+            <h3> kai khada</h3>
+            <p>chessy chicken with fresh chicken.</p>
+            <p><strong>prise:2500</strong></p>
+            <button>order now</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>book a table</h2>
+        <from>
+            <input type="text"
+            placeholder="enter your name"><br>
+            <input type="text"
+            placeholder="phone number"><br>
+                <button type="submit">booknow</button>
+        </from>
+    </section>
+    <footer>
+        <p>2026 food place | all Rights Reserved</p>
+    </footer>
+        </body>
+</html>
