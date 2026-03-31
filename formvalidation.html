@@ -1,0 +1,34 @@
+<html>
+    <head>Form validation</head>
+    <script>
+        function validateform()
+        {
+            let name=document.getElementById("name").value;
+            let email=document.getElementById("email").value;
+            let password=document.getElementById("pass").value;
+
+            if(name=="")
+        {
+            alert("name is required")
+            return false;
+        }
+
+        if(!email.include("@")){
+            alert("email id is not valid");
+            return false;
+        }
+        if(password.length<6)
+        {
+            alert("password is weak")
+        }
+        }
+    </script>
+    <body>
+        <form>
+            Name:<input type="text" id="name"><br>
+            Email:<input type="text" id="email"><br>
+            password:<input type="password" id="pass"><br>
+            <button onclick="validateform()" value="Register">check
+        </form>
+    </body>
+</html>
